@@ -1,0 +1,71 @@
+:root {
+  --LumaCloudModPalette-50: color-mix(in srgb, var(--LumaCloudModAccent) 6%, black 93%);
+  --LumaCloudModPalette-100: color-mix(in srgb, var(--LumaCloudModAccent) 9%, black 95%);
+  --LumaCloudModPalette-200: color-mix(in srgb, var(--LumaCloudModAccent) 30%, black 70%);
+  --LumaCloudModPalette-300: color-mix(in srgb, var(--LumaCloudModAccent) 40%, black 60%);
+  --LumaCloudModPalette-400: color-mix(in srgb, var(--LumaCloudModAccent) 50%, black 50%);
+  --LumaCloudModPalette-500: color-mix(in srgb, var(--LumaCloudModAccent) 60%, black 40%);
+  --LumaCloudModPalette-600: color-mix(in srgb, var(--LumaCloudModAccent) 70%, black 30%);
+  --LumaCloudModPalette-700: color-mix(in srgb, var(--LumaCloudModAccent) 80%, black 20%);
+  --LumaCloudModPalette-800: color-mix(in srgb, var(--LumaCloudModAccent) 90%, black 10%);
+  --LumaCloudModPalette-900: color-mix(in srgb, var(--LumaCloudModAccent) 95%, black 5%);
+
+  /* Light theme palette - white-based */
+  --LumaCloudModPalette-light-50: color-mix(in srgb, var(--LumaCloudModAccent) 6%, white 94%);
+  --LumaCloudModPalette-light-100: color-mix(in srgb, var(--LumaCloudModAccent) 9%, white 91%);
+  --LumaCloudModPalette-light-200: color-mix(in srgb, var(--LumaCloudModAccent) 30%, white 70%);
+  --LumaCloudModPalette-light-300: color-mix(in srgb, var(--LumaCloudModAccent) 40%, white 60%);
+  --LumaCloudModPalette-light-400: color-mix(in srgb, var(--LumaCloudModAccent) 50%, white 50%);
+  --LumaCloudModPalette-light-500: color-mix(in srgb, var(--LumaCloudModAccent) 60%, white 40%);
+  --LumaCloudModPalette-light-600: color-mix(in srgb, var(--LumaCloudModAccent) 70%, white 30%);
+  --LumaCloudModPalette-light-700: color-mix(in srgb, var(--LumaCloudModAccent) 80%, white 20%);
+  --LumaCloudModPalette-light-800: color-mix(in srgb, var(--LumaCloudModAccent) 90%, white 10%);
+  --LumaCloudModPalette-light-900: color-mix(in srgb, var(--LumaCloudModAccent) 95%, white 5%);
+}
+
+div[class*="VibeAnimation_root__"]:after {
+  background: transparent !important;
+}
+
+.ym-dark-theme {
+  --ym-background-color-primary-enabled-basic: var(--LumaCloudModPalette-50) !important;
+  --ym-background-color-primary-enabled-popover: var(--LumaCloudModPalette-100) !important;
+
+  --ym-controls-color-secondary-outline-disabled: var(--LumaCloudModPalette-50) !important;
+  --ym-controls-color-secondary-outline-selected: var(--LumaCloudModPalette-100) !important;
+  --ym-controls-color-secondary-outline-hovered: var(--LumaCloudModPalette-100) !important;
+
+  --ym-controls-color-primary-outline-disabled: var(--LumaCloudModPalette-800) !important;
+  --ym-controls-color-primary-outline-enabled: var(--LumaCloudModPalette-200) !important;
+  --ym-controls-color-primary-outline-hovered: var(--LumaCloudModPalette-200) !important;
+
+  /* --ym-controls-color-secondary-default-hovered: var(--LumaCloudModPalette-300) !important; */
+
+  --ym-controls-color-primary-outline-selected_stroke: var(--LumaCloudModPalette-800) !important;
+
+  --ym-controls-color-primary-default-disabled: var(--LumaCloudModPalette-600) !important;
+  --ym-controls-color-primary-default-enabled: var(--LumaCloudModPalette-900) !important;
+  --ym-controls-color-primary-default-hovered: var(--LumaCloudModPalette-800) !important;
+  --ym-controls-color-primary-default-pressed: var(--LumaCloudModPalette-500) !important;
+
+  --ym-background-color-primary-enabled-content: var(--LumaCloudModPalette-100) !important;
+  --ym-logo-color-primary-variant: var(--LumaCloudModPalette-900) !important;
+  --ym-logo-color-primary-player: var(--LumaCloudModPalette-900) !important;
+}
+
+.ym-light-theme {
+  --ym-controls-color-primary-outline-disabled: var(--LumaCloudModPalette-light-100) !important;
+  --ym-controls-color-primary-outline-enabled: var(--LumaCloudModPalette-light-200) !important;
+  --ym-controls-color-primary-outline-hovered: var(--LumaCloudModPalette-light-300) !important;
+
+  --ym-controls-color-primary-outline-selected_stroke: var(--LumaCloudModPalette-light-800) !important;
+
+  --ym-controls-color-primary-default-disabled: var(--LumaCloudModPalette-light-400) !important;
+  --ym-controls-color-primary-default-enabled: var(--LumaCloudModPalette-light-900) !important;
+  --ym-controls-color-primary-default-hovered: var(--LumaCloudModPalette-light-800) !important;
+  --ym-controls-color-primary-default-pressed: var(--LumaCloudModPalette-light-600) !important;
+
+  --ym-logo-color-primary-variant: var(--LumaCloudModPalette-light-900) !important;
+  --ym-logo-color-primary-player: var(--LumaCloudModPalette-light-100) !important
+;
+}
